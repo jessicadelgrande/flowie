@@ -1,10 +1,44 @@
-$primaryFont: 'Francois One', sans-serif;
-$secondaryFont: 'Lato', sans-serif;
+// $primaryFont: 'Francois One', sans-serif;
+// $secondaryFont: 'Lato', sans-serif;
 
-$colorDk: #0F4E84;
-$colorMd: #D9F0F5;
-$colorLt: #F0F9FE;
+// $sml: ( max: 570px );
+// $med: ( max: 680px );
+// $lrg: ( max: 750px );
 
-$sml: ( max: 570px );
-$med: ( max: 680px );
-$lrg: ( max: 750px );
+// typography
+// $decorativeTypog: 'Spirax', cursive; // displayFont
+
+$displayFont: 'Spirax', cursive; // displayFont
+$bodyFont: 'Poppins', sans-serif; // contentFont
+
+// color palette
+$fontColorMain: #2b2b2b;
+$fontColorSecondary: #8e8e8e;
+$fontColorTert: #FFF;
+$accentColor: #809E61;
+$accentColorVibrant: #D8DC61;
+$sectionColorMain: #FFF;
+$sectionColorSecondary: #f1f1f1;
+$navBarColorTert: #2b2b2b;
+$footerColorTert: #292a29;
+
+//////////
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+
+// Colour Palette
+$bggrey: #2b2b2b;
+$greysection: #f1f1f1;
+$yellow: #d9de55;
+$green: #80a05d;
+
+// Text Palette
+$usergrey: #8f8f8f;
+$pgrey: #949494;
+$linkgrey: #b1b1b1;
+$footergrey: #858585;
+
+// Fonts
+$mainFont: 'Poppins', sans-serif;
+
+// Mixins

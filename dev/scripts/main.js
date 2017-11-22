@@ -1,10 +1,14 @@
+import 'styles/styles.scss';
 
-
-
-App.init = () => {
-	App.events();
-} //end of init();
-
-$(function() {
-	App.init();
+$('#mobileMenu').on('click', function(){
+	$('.header__topBar--mobile ul').toggle();
 });
+
+
+// App.init = () => {
+// 	App.events();
+// } //end of init();
+
+// $(function() {
+// 	App.init();
+// });
