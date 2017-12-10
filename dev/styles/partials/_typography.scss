@@ -1,0 +1,50 @@
+html {
+	font-family: 'Poppins', sans-serif;
+	font-size:62.5%; /* 10px */
+}
+
+a {
+	outline:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0px 0px 10px 0px;
+	padding:0px;
+}
+
+h1 {
+	font-weight:300;
+	font-size:3rem;
+}
+
+h2 {
+	font-weight:300;
+	text-transform:uppercase;
+	font-size:2rem;
+	line-height:2.6rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+	line-height:1.82rem;
+}
+
+h4 {
+
+}
+
+h5 {
+	text-transform:uppercase;
+	font-size: 1.2rem;
+	line-height:1.56rem;
+}
+
+h6 {
+	text-transform:uppercase;
+	font-size:1rem;
+}
+
+p {
+	font-size:1.2rem;
+	color:#8f8f8f;
+}

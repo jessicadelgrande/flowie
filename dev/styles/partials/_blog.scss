@@ -1,128 +1,196 @@
-.blogWrapperContent {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+/* FROM OUR BLOG */
+.blog {
+	background:white;
+	text-align:center;
 }
 
-.blogEntry {
-	width: 48.5%;
-	margin: 50px 0 150px 0;
-
-}
-
-.blogImage { 
-	img { 
-		width: 100%;
+.blog-entry {
+	display:inline-block;
+	width:calc(50% - 10px);
+	margin-right:10px;
+	img {
+		max-width:100%;
 	}
-}
-
-.blogContent {
-	display: flex;
-	flex-direction: row;
-}
-
-.blogDate {
-	width: 175px;
-	height: 200px;
-	position: relative;
-	margin: 15px 10px 0 0;
-}
-
-.blogDate-Month {
-	font-size: 1.25rem;
-	text-transform: uppercase;
-	font-weight: 400;
-	color: $green;
-	position: absolute;
-	top: 60px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 10;
-}
-
-.blogDate-Day {
-	font-size: 8rem;
-	position: absolute;
-	top: 0;
-	color: #ececec;
-	z-index: -10;
-
-	h3 { 
-		margin-top: -50px;
-		margin-bottom: 0;
+	&:last-child {
+		margin-right:0px;
 	}
 }
 
-.blogText {
-	max-width: 400px;
+.blog-content {
+	padding:10px 0px;
+	text-align:left;
 
-	h3 { // Title of the post
-		font-weight: 500;
-		line-height: 22px;
-		margin-top: 20px;
-	}
+	.blog-date {
+		width:calc(25% - 25px);
+		margin-right:25px;
+		padding:0px;
+		float:left;
+		position:relative;
+		text-align:center;
+		p.date{
+			color:#f1f1f1;
+			display:inline-block;
+			position:relative;
+			font-size:5rem;
+			line-height:5rem;
+			margin:0;
+			top:0;
+		}
 
-	h4 { // Posted by + Comments
-		font-size: 0.875rem;
-		font-weight: 400;
-		color: $green;
-		padding-top: 3px;
-	}
-
-	p { // Posting preview paragraph
-		color: #787878;
-		font-size: 0.875rem;
-		padding-top: 15px;
-	}
-}
-
-@media (max-width: 1270px) {
-	.blogDate-Day {
-		font-size: 7rem;
-	}
-}
-
-@media (max-width: 920px) {
-	.blogDate-Day {
-		font-size: 5rem;
+		p.month {
+			font-size:1.4rem;
+			color:#80a05d;
+			text-transform:uppercase;
+			margin:0;
+			position: relative;
+			top:0;
+			left:0;
+		}
 	}
 }
 
-@media (max-width: 800px) {
-	.blogWrapperContent {
-		flex-direction: column;
+.blog-details {
+	display:inline-block;
+	width:75%;
+	h3 {
+		margin:0;
 	}
-
-	.blogEntry {
-		width: 100%;
-		margin: 30px 0 30px 0;
-	}
-
-	.blogDate-Day {
-		font-size: 8.2rem;
-	}
-
-	.blogText {
-		max-width: 600px;
-		padding-left: 20px;
+	span.credit {
+		font-size:1.2rem;
+		color:#80a05d;
+		margin:0;
+		padding:0;
 	}
 }
 
-@media (max-width: 770px) {
-	.blogDate-Day {
-		font-size: 7.3rem;
-	}
+
+
+
+// MEDIA QUERIES
+
+/* hi-res laptops and desktops */ 
+@media (max-width:1281px) { 
+
 }
 
-@media (max-width: 595px) {
-	.blogDate-Day {
-		font-size: 3rem;
-		margin-top: 60px;
-		left: 50%;
-		transform: translateX(-50%);
+/* big landscape tablets, laptops, and desktops */ 
+@media (max-width:1025px) { 
+
+}
+
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (max-width:961px) { 
+
+	.blog-entry {
+		width:100%;
+		margin:0 auto;
+		margin-bottom: 25px;
+		box-shadow: 5px 5px 10px rgba(51,51,51,0.3);
+		img {
+			width:100%;
+		}
 	}
 
-	.blogDate-Month {
-		top: 17px;
+	.blog-content {
+		padding:25px;
+		text-align:left;
+
+		display: flex;
+		flex-flow:row wrap;
+
+		.blog-date {
+			width:calc(25% - 25px);
+			text-align: center;
+			position:relative;
+			p.date{
+				font-size:5rem;
+				line-height:5rem;
+				margin:0;
+				position:relative;
+				top:0;
+			}
+
+			p.month {
+				font-size:1.6rem;
+				margin:0;
+				position: relative;
+				top:0;
+				left:0;
+			}
+		}
 	}
+
+	.blog-details {
+		display:inline-block;
+		width:75%;
+		h3 {
+			margin:0;
+		}
+		span.credit {
+			font-size:1.2rem;
+			color:#80a05d;
+			margin:0;
+			padding:0;
+		}
+	}
+
+	
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (max-width:641px) { 
+
+
+
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (max-width:481px) { 
+
+	
+	.blog-content {
+		padding:25px;
+		text-align:left;
+
+		display: flex;
+		flex-flow:column wrap;
+
+		.blog-date {
+			width:100%;
+			height:100px;
+			text-align: center;
+			position:relative;
+			p.date{
+				margin:0;
+				position:relative;
+			}
+
+			p.month {
+				position: relative;
+				top:0;
+			}
+		}
+	}
+
+	.blog-details {
+		display:inline-block;
+		width:100%;
+		h3 {
+			margin:0;
+		}
+		span.credit {
+			font-size:1.2rem;
+			color:#80a05d;
+			margin:0;
+			padding:0;
+		}
+	}
+
+
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (max-width:320px) { 
+
 }

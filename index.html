@@ -2,369 +2,340 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Flowie</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+	<meta name="viewport" content="initial-scale=1">
 	<link rel="stylesheet" href="public/styles/style.css">
-	<meta name="viewport" content="initial-scale=1.0" user-scalable="no">
-	<meta charset="utf-8">
 
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	
+	<!-- GOOGLE FONTS -->
+	<!-- font-family: 'Poppins', sans-serif; -->
+	<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+
+	<title>Flowie: Welcome</title>
 </head>
-
 <body>
-	<header>
-		<div class="headerUser">
-			<div class="headerUserAccount">
-				<ul>
-					<li><a href="#/">Log In</a></li>
-					<li><a href="#/">Register</a></li>
-					<li><a href="#/">Account</a></li>
-				</ul>
-			</div>
-			<div class="headerUserShop">
-				<ul>
-					<li><a href="#/">USD</a></li>
-					<li><a href="#/">English</a></li>
-					<li><a href="#/">Wishlist</a></li>
-				</ul>
+
+<!-- HEADER -->
+<header>
+
+<!-- navigation -->
+	<nav class="settings">
+		<div class="wrapper">
+			<ul class="top-nav">
+				<li><a href="index.html">home</a></li>
+				<li><a href="about-us.html">about us</a></li>
+				<li><a href="contact.html">contact</a></li>
+				<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+			</ul>
+
+			<!-- HAMBURGER BUTTON -->
+			<div class="hamburger">
+		    	<i class="fa fa-bars" aria-hidden="true"></i>
 			</div>
 		</div>
-		<div class="headerLogo">
-			<img src="../assets/homepage_logo.png" alt="Flowie logo">
+	</nav>
+
+<!-- logo -->
+	<figure class="logo">
+		<img src="assets/homepage_logo.png" alt="flowie logo">
+	</figure>
+<!-- menu -->
+<!-- Demo: section omitted  -->
+	<nav class="menu">
+		<ul class="wrapper">
+			<li><a href="#">home</a></li>
+			<li><a href="#">women</a></li>
+			<li><a href="#">men</a></li>
+			<li><a href="#">features</a></li>
+			<li><a href="#">services</a></li>
+			<li><a href="#">blog</a></li>
+			<li><a href="#">contact</a></li>
+			<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+		</ul>
+	</nav>
+
+<!-- hero image -->
+	<figure class="hero">
+		<div class="wrapper">
+			<img src="assets/flowie_from_hearts.png" alt="Flowie From Hearts">
+			<p>give your full of love for this planet</p>
+			<button class="view-products">view products</button>
+			<button class="see-all">see all</button>
 		</div>
-		<nav>
-			<div class="headerLinks">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li>Women</li>
-					<li>Men</li>
-					<li>Features</li>
-					<li><a href="about.html">Services</a></li>
-					<li>Blog</li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><i class="fa fa-shopping-cart fa-lg" aria-hidden="false"></i></li>
-					<li><i class="fa fa-search fa-lg" aria-hidden="false"></i></li>
-				</ul>
+	</figure>
+</header>
+	
+
+<!-- WELCOME TO FLOWIE GARDEN -->
+<section class="welcome">
+	<figure class="wrapper">
+		<h2>welcome to flowie garden</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, architecto aliquam itaque nam. Quae quis voluptatem, doloribus, impedit accusamus laudantium esse nemo odio officiis qui.</p>
+		<div class="offer">
+			<div class="offer-item">
+				<img src="assets/square__01.jpg" alt="Who we are?">
+				<p><a href="#">who we are?</a></p>
 			</div>
+			<div class="offer-item">
+				<img src="assets/square__02.jpg" alt="How we work">
+				<p><a href="#">how we work?</a></p>
+			</div>
+			<div class="offer-item">
+				<img src="assets/square__03.jpg" alt="About our products">
+				<p><a href="#">about our products</a></p>
+			</div>
+		</div>
+	</figure>
+</section>
+
+
+<!-- FEATURED ITEMS -->
+<section class="featured">
+	<figure class="wrapper">
+		<h2>featured items</h2>
+<!-- menu: featured -->
+		<nav class="menu-featured">
+			<ul>
+				<li><a href="#">home decor</a></li>
+				<li><a href="#">workspace</a></li>
+				<li><a href="#">outdoor</a></li>
+				<li><a href="#">for gift</a></li>
+			</ul>
 		</nav>
-	</header>
+<!-- featured items -->
+		<figure class="featured-items">
+			<div class="featured-products">
+				<div class="product">
+					<div class="container">
+						<img src="assets/Homepage-01_plant_07.jpg">
+						<div class="product-description">
+							<h5>Small Cactus Variety pot from France</h5>
+							<h6><span class="cost">$45.00</span></h6>
+						</div>
+					</div>
+					<button class="add-to-cart">add to cart</button>
+				</div>
+				<div class="product">
+					<div class="container">
+						<img src="assets/Homepage-01_plant_09.jpg">
+						<div class="product-description">
+							<h5>Small Cactus Variety pot from France</h5>
+							<h6><span class="cost">$45.00</span></h6>
+						</div>
+					</div>
+					<button class="add-to-cart">add to cart</button>
+				</div>
+				<div class="product">
+					<div class="container">
+						<img src="assets/half_plant.jpg">
+						<div class="product-description">
+							<h5>Small Cactus Variety pot from France</h5>
+							<h6><span class="cost">$45.00</span></h6>
+						</div>
+					</div>
+					<button class="add-to-cart">add to cart</button>
+				</div>
+				<div class="product">
+					<div class="container">
+						<img src="assets/Homepage-01_plant_15.jpg">
+						<div class="product-description">
+							<h5>Small Cactus Variety pot from France</h5>
+							<h6><span class="cost">$45.00</span></h6>
+						</div>
+					</div>
+					<button class="add-to-cart">add to cart</button>
+				</div>
+			</div>
+			<div class="best-wishes">
+				<h2>we from france.<br><span id="best-wishes">best wishes</span> for you</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eos molestiae at, numquam. Placeat asperiores perferendis illum eum vel impedit eaque consequatur quam vero architecto fuga aliquam cumque id voluptatibus, est, at, reiciendis autem ratione sed porro, neque fugit. Voluptatibus optio magnam, recusandae explicabo, placeat commodi. Alias veniam, vel totam!</p>
+				<a href="#">view more</a>
+				<img src="assets/group_plants.png" alt="group plants">
+			</div>
+		</figure>
+	</figure>
+</section>
 
-	<section class="hero">
-		<div class="heroBurger">
-			<i class="fa fa-bars fa-lg" aria-hidden="false"></i>
-		</div>
-		<div class="heroText">
-			<img src="../../assets/flowie_from_hearts.png" alt="Flowie from Heart text">
-			<h3>Give your full of love for this planet</h3>
-			<div class="heroButtons">
-				<button class="button buttonGrey">View Products</button>
-				<button class="button buttonYellow">See All</button>
+<!-- NEW ARRIVALS -->
+<section class="new-arrivals">
+	<figure class="wrapper">
+		<h2>new arrivals</h2>
+		<div class="new-product-container">
+			<div class="product-new">
+				<img src="assets/Homepage-01_plants_23.jpg">
+				<div class="love">
+					<h2>more than a gift. It's <span id="best-wishes">love</span>.</h2>
+					<a href="#">view more</a>
+				</div>
+			</div>
+			<div class="product-new">
+				<div class="container">
+					<img src="assets/Homepage-01_plants_25.jpg">
+					<div class="product-description">
+						<h5>Small Cactus Variety pot from France</h5>
+						<h6><span class="cost">$45.00</span></h6>
+					</div>
+				</div>
+				<button class="add-to-cart">add to cart</button>
+			</div>
+			<div class="product-new">
+				<div class="container new-hot">
+					<img src="assets/Homepage-01_plants_27.jpg">
+					<div class="product-description">
+						<h5>Small Cactus Variety pot from France</h5>
+						<h6><span class="cost">$45.00</span></h6>
+					</div>
+				</div>
+				<button class="add-to-cart">add to cart</button>
+			</div>
+			<div class="product-new">
+				<div class="container">
+					<img src="assets/Homepage-01_plants_33.jpg">
+					<div class="product-description">
+						<h5>Small Cactus Variety pot from France</h5>
+						<h6><span class="cost">$45.00</span></h6>
+					</div>
+				</div>
+				<button class="add-to-cart">add to cart</button>
+			</div>
+			<div class="product-new">
+				<div class="container hot">
+					<img src="assets/Homepage-01_plants_35.jpg">
+					<div class="product-description">
+						<h5>Small Cactus Variety pot from France</h5>
+						<h6><span class="cost">$45.00</span></h6>
+					</div>
+				</div>
+				<button class="add-to-cart">add to cart</button>
+			</div>
+			<div class="product-new">
+				<div class="container">
+					<img src="assets/Homepage-01_plants_36.jpg">
+					<div class="product-description">
+						<h5>Small Cactus Variety pot from France</h5>
+						<h6><span class="cost">$45.00</span></h6>
+					</div>
+				</div>
+				<button class="add-to-cart">add to cart</button>
+			</div>
+			<div class="product-new">
+				<div class="container">
+					<img src="assets/Homepage-01_plants_37.jpg">
+					<div class="product-description">
+						<h5>Small Cactus Variety pot from France</h5>
+						<h6><span class="cost">$45.00</span></h6>
+					</div>
+				</div>
+				<button class="add-to-cart">add to cart</button>
 			</div>
 		</div>
-	</section>
+	</figure>
+</section>
 
-	<section class="welcome">
-		<div class="welcomeWrapper midWidthWrapper">
-			<h2>Welcome to Flowie Garden</h2>
-			<p>Hawker &copy; Jonre PSD Template is an awesome design idea for your online shop. Clean Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
-			<div class="welcomeGrid">
-				<div class="welcomeColumn">
-					<img src="../../assets/welcome_01.jpg" alt="Who We Are plant">
-					<h3>Who We Are?</h3>
-				</div>
-				<div class="welcomeColumn">
-					<img src="../../assets/welcome_02.jpg" alt="How We Work plant">
-					<h3>How We Work?</h3>
-				</div>
-				<div class="welcomeColumn">
-				<img src="../../assets/welcome_03.jpg" alt="About Our Products plant">
-					<h3>About Our Products</h3>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section class="featured">
-		<div class="featuredWrapper midWidthWrapper">
-			<h2>Featured Items</h2>
-			<div class="featuredNav">
-				<ul>
-					<li><a href="#/">Home Decor</a></li>
-					<li><a href="#/">Workspace</a></li>
-					<li><a href="#/">Out door</a></li>
-					<li><a href="#/">For Gift</a></li>
-				</ul>
-			</div>
-			<div class="featuredGrid">
-				<div class="featuredLeft">
-					<!--Item 1--> 
-					<div class="featuredItem">
-						<div class="featuredImg"><!-- container of img -->
-							<img src="../../assets/plant1.jpg" alt="Featured plant 1">
-						</div>
-						<div class="featuredItemInfo"><!-- container of info -->
-							<h4>Small Cactus Variety pot from France</h4>
-							<p>$45.00</p>
-						</div>
-						<div class="featuredAddCart">
-							<p>Add to Cart</p>
-						</div>
-					</div>
-					<!--Item 2--> 
-					<div class="featuredItem">
-						<div class="featuredImg">
-							<img src="../../assets/plant2.jpg" alt="Featured plant 2">
-						</div>
-						<div class="featuredItemInfo">
-							<h4>Small Cactus Variety pot from France</h4>
-							<p>$45.00</p>
-						</div>
-						<div class="featuredAddCart">
-							<p>Add to Cart</p>
-						</div>
-					</div>
-					<!--Item 3--> 
-					<div class="featuredItem full-img">
-						<div class="featuredImg">
-							<img src="../../assets/plant3.jpg" alt="Featured plant 3">
-						</div>
-						<div class="featuredItemInfo">
-							<h4>Small Cactus Variety pot from France</h4>
-							<p>$45.00</p>
-						</div>
-						<div class="featuredAddCart">
-							<p>Add to Cart</p>
-						</div>
-					</div>
-					<!--Item 4--> 
-					<div class="featuredItem">
-						<div class="featuredImg">
-							<img src="../../assets/plant4.jpg" alt="Featured plant 4">
-							<div class="labels">
-								<img src="../../assets/new.png" alt="New item">
-							</div>
-						</div>
-						<div class="featuredItemInfo">
-							<h4>Small Cactus Variety pot from France</h4>
-							<p>$45.00</p>
-						</div>
-						<div class="featuredAddCart">
-							<p>Add to Cart</p>
-						</div>
+<!-- LIFE OF FARM -->
+<section class="farm">
+	<figure class="wrapper">
+		<img src="assets/life_of_farm.png" alt="Life of Farm">
+	</figure>
+</section>
 
-					</div>
-				</div>
-				<div class="featuredRight">
-					<h3>We From France.</h3>
-					<h3><span>Bestwishes</span> for you.</h3>
-					<p>Hawker &copy; Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
-					<div class="moreLink"><a href="#/">View more</a></div>
-				</div>
-			</div>
-			<div class="cactusOverlay">
-				<img src="../../assets/cactus.png" alt="Cactus plants">
-			</div>
-		</div>
-	</section>
 
-	<section class="arrivals">
-		<div class="arrivalsWrapper midWidthWrapper">
-			<h2>New Arrivals</h2>
-			<div class="arrows">
-				<img src="../../assets/arrowL.png" alt="Left arrow">
-				<img src="../../assets/arrowI.png" alt="Line">
-				<img src="../../assets/arrowR.png" alt="Right arrow">
+<!-- FROM OUR BLOG -->
+<section class="blog">
+	<figure class="wrapper">
+		<h2>from our blog</h2>
+		<div class="container">
+			<div class="blog-entry">
+				<img src="assets/blog_01.jpg" alt="blog 1">
+				<div class="blog-content">
+					<div class="blog-date">
+						<p class="date">12</p>
+						<p class="month">March</p>
+					</div>
+					<div class="blog-details">
+						<h3>News: They are not part of this theme anything and anymore</h3>
+						<span class="credit">Posted by themesun / 0 Comments</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae optio expedita vero impedit non doloribus eaque voluptas, adipisci similique sint et nulla recusandae illum sequi.</p>
+					</div>
+				</div>
 			</div>
+			<div class="blog-entry">
+				<img src="assets/blog_02.jpg" alt="blog 2">
+				<div class="blog-content clearfix">
+					<div class="blog-date">
+						<p class="date">23</p>
+						<p class="month">March</p>
+					</div>
+					<div class="blog-details">
+						<h3>News: They are not part of this theme anything and anymore</h3>
+						<span class="credit">Posted by themesun / 0 Comments</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae optio expedita vero impedit non doloribus eaque voluptas, adipisci similique sint et nulla recusandae illum sequi.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</figure>
+</section>
 
-			<div class="arrivalsGrid">
-				<!-- Item 1: Featured Arrival -->
-				<div class="arrivalsItem">
-					<img src="../../assets/Homepage_01.jpg" alt="Plant 1">
-					<div class="arrivalsFeat">
-						<h3>More than a gift.</h3>
-						<h3>It's <span>love.</span></h3>
-						<div class="moreLink"><a href="#/">View more</a></div>
-					</div>
-				</div>
-				<!-- Item 2 -->
-				<div class="arrivalsItem">
-					<img src="../../assets/Homepage_02.jpg" alt="Plant 2">
-					<div class="arrivalsInfo">
-						<h4>Small Cactus Variety pot from France</h4>
-						<p>$45.00</p>
-					</div>
-					<div class="addCart">
-						<p>Add to Cart</p>
-					</div>
-				</div>
-				<!-- Item 3 -->
-				<div class="arrivalsItem">
-					<img src="../../assets/Homepage_03.jpg" alt="Plant 3">
-					<div class="labels">
-						<img src="../../assets/hot.png" alt="New item">
-						<img src="../../assets/new.png" alt="New item">
-					</div>
-					<div class="arrivalsInfo">
-						<h4>Small Cactus Variety pot from France</h4>
-						<p>$45.00</p>
-					</div>
-					<div class="addCart">
-						<p>Add to Cart</p>
-					</div>
-				</div>
-				<!-- Item 4 -->
-				<div class="arrivalsItem">
-					<img src="../../assets/Homepage_04.jpg" alt="Plant 4">
-					<div class="arrivalsInfo">
-						<h4>Small Cactus Variety pot from France</h4>
-						<p>$45.00</p>
-					</div>
-					<div class="addCart">
-						<p>Add to Cart</p>
-					</div>
-				</div>
-				<!-- Item 5 -->
-				<div class="arrivalsItem">
-					<div class="labels"><img src="../../assets/new.png" alt="New item"></div>
-					<img src="../../assets/Homepage_05.jpg" alt="Plant 5">
-					<div class="arrivalsInfo">
-						<h4>Small Cactus Variety pot from France</h4>
-						<p>$45.00</p>
-					</div>
-					<div class="addCart">
-						<p>Add to Cart</p>
-					</div>
-				</div>
-				<!-- Item 6 -->
-				<div class="arrivalsItem">
-					<img src="../../assets/Homepage_06.jpg" alt="Plant 6">
-					<div class="arrivalsInfo">
-						<h4>Small Cactus Variety pot from France</h4>
-						<p>$45.00</p>
-					</div>
-					<div class="addCart">
-						<p>Add to Cart</p>
-					</div>
-				</div>
-				<!-- Item 7 -->
-				<div class="arrivalsItem">
-					<img src="../../assets/Homepage_07.jpg" alt="Plant 7">
-					<div class="arrivalsInfo">
-						<h4>Small Cactus Variety pot from France</h4>
-						<p>$45.00</p>
-					</div>
-					<div class="addCart">
-						<p>Add to Cart</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section class="video">
-		<div class="videoWrapper midWidthWrapper">
-			<div class="videoText">
-				<img src="../../assets/life_of_farm.png" alt="Life of Farm text">
-			</div>
-		</div>
-	</section>
+<!-- CLIENTS -->
+<section class="clients">
+	<figure class="wrapper">
+		<img src="assets/vintage_icon02.png" alt="vintage 2">
+		<img src="assets/vintage_icon03.png" alt="vintage 3">
+		<img src="assets/vintage_icon01.png" alt="vintage 1">
+		<img src="assets/vintage_icon05.png" alt="vintage 5">
+		<img src="assets/vintage_icon04.png" alt="vintage 4">
+	</figure>
+</section>
 
-	<section class="blog">
-		<div class="blogWrapper midWidthWrapper">
-			<h2>From our Blog</h2>
-			<div class="blogWrapperContent">
-				<div class="blogEntry">
-					<div class="blogImage">
-						<img src="../../assets/blog_01.jpg" alt="Aloe">
-					</div>
-					<div class="blogContent">
-						<div class="blogDate">
-							<div class="blogDate-Day"><h3>12</h3></div>
-							<div class="blogDate-Month"><h3>March</h3></div>
-						</div>
-						<div class="blogText">
-							<h3>News: They are not part of this theme anything and anymore </h3>
-							<h4>Posted by themesun / 0 Comments</h4>
-							<p>Use, by you or one client, in a and single end product which end tos users are not charged for. The kos total price an includes the item. Malesuada ultricies. Grumpy wizards make toxic brew for the evil Queen...</p>
-						</div>
-					</div>
-				</div>
-				<div class="blogEntry">
-					<div class="blogImage">
-						<img src="../../assets/blog_02.jpg" alt="Cafe setup">
-					</div>
-					<div class="blogContent">
-						<div class="blogDate">
-							<div class="blogDate-Day"><h3>23</h3></div>
-							<div class="blogDate-Month"><h3>March</h3></div>
-						</div>
-						<div class="blogText">
-							<h3>News: They are not part of this theme anything and anymore </h3>
-							<h4>Posted by themesun / 0 Comments</h4>
-							<p>Use, by you or one client, in a and single end product which end tos users are not charged for. The kos total price an includes the item. Malesuada ultricies. Grumpy wizards make toxic brew for the evil Queen...</p>
-						</div>
-					</div>
-				</div>
-			</div><!-- Ends the DIV wrapperContent -->
+
+<!-- FOOTER -->
+<footer>
+	<figure class="wrapper">
+<!-- aboutus -->
+		<div class="footnote">
+			<h5>about us</h5>
+			<img src="assets/flowie_dark.jpg" alt="logo">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, recusandae.</p>
+			<ul class="social">
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
 		</div>
-	</section>
-	<section class="vintage">
-		<div class="vintageWrapper midWidthWrapper">
-				<div class="vintageLogo">
-					<img src="../../assets/logo1.png" alt="Vintage 1">
-				</div>	
-				<div class="vintageLogo">
-					<img src="../../assets/logo2.png" alt="Vintage 2">
-				</div>	
-				<div class="vintageLogo">
-					<img src="../../assets/logo3.png" alt="Vintage 3">
-				</div>	
-			<div class="vintageRow">	
-				<div class="vintageLogo">
-					<img src="../../assets/logo4.png" alt="Vintage 4">
-				</div>	
-				<div class="vintageLogo">
-					<img src="../../assets/logo5.png" alt="Vintage 5">
-				</div>	
-			</div>			
+<!-- information -->
+		<div class="footnote">
+			<h5>information</h5>
+			<ul class="information">
+				<li><a href="#">Shipping and Policies</a></li>
+				<li><a href="#">Delivery</a></li>
+				<li><a href="#">My Account</a></li>
+				<li><a href="#">Asked Questions</a></li>
+				<li><a href="#">Browse Products</a></li>
+				<li><a href="#">Payment & Returns</a></li>
+			</ul>
 		</div>
-	</section>
-	<footer>
-		<div class="footerWrapper midWidthWrapper">
-			<div class="footerColumn footerColumn-Left">
-				<h3>About Us</h3>
-				<img src="../assets/flowie_dark.jpg" alt="Flowie logo">
-				<p> Flowie - I appreciate all the positive feedback. It means a lot.</p>
-				<div class="footerSocial">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-pinterest" aria-hidden="true"></i>
-					<i class="fa fa-youtube-play" aria-hidden="true"></i>
-					<i class="fa fa-instagram" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="footerColumn footerColumn-Mid">
-				<h3>Information</h3>
-				<ul>
-					<li>Shipping and Policies</li>
-					<li>Delivery</li>
-					<li>My Account</li>
-					<li>Asked Questions</li>
-					<li>Browse Products</li>
-					<li>Payment &amp; Returns</li>
-				</ul>
-			</div>
-			<div class="footerColumn footerColumn-Right">
-				<h3>Subscribe</h3>
-				<p>&copy; Flowie Wordpress. Site by Zooka.io. All Right Reserved 2015.</p>
-				<div class="footerForm">
-					<input type="text" placeholder="Your email">
-					<button class="button buttonYellow">Send Us</button>
-				</div>
-			</div>
+<!-- subscribe -->
+		<div class="footnote">
+			<h5>subscribe</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, recusandae.</p>
+			<form action="" class="subscribe">
+				<input type="email" placeholder="Your Email">
+				<input type="submit" value="send us">
+			</form>
 		</div>
-	</footer>
+	</figure>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="public/scripts/main.js"></script>
+
 </body>
 </html>

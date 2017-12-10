@@ -1,14 +1,7 @@
-import 'styles/styles.scss';
+$(function() {
 
-$('#mobileMenu').on('click', function(){
-	$('.header__topBar--mobile ul').toggle();
+	$(".hamburger").on("click", function(){
+		$('.top-nav').toggleClass('show');
+	});
+
 });
-
-
-// App.init = () => {
-// 	App.events();
-// } //end of init();
-
-// $(function() {
-// 	App.init();
-// });
